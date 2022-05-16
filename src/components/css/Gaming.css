@@ -1,0 +1,17 @@
+.Gaming--pictures {
+    float:left;
+    width: 50% ;
+    height:auto;
+    padding: 20px;
+}
+.image--pc {
+    float:inherit;    
+    padding:20px;
+}
+.Gaming {
+    font-size: 20px;
+    height: 40px;
+    margin-right: 40px;
+    padding: 10px;
+}
+body{    overflow-y:scroll; }

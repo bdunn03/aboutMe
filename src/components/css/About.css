@@ -1,0 +1,54 @@
+.About{
+    font-size: 40px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.about--list{
+    line-height: 40px;
+    font-style: oblique;
+    color:#ffffff;
+    font-size: 20px;
+    text-align: left;
+}
+.image{
+    border-radius: 8px;
+    height: 300px;
+    padding: 20px;
+    max-width: 300px;
+    filter:grayscale(100%)
+}
+.image1 {
+    border-radius: 50%;
+    height: 300px;
+    padding: 20px;
+    max-width: 300px;
+}
+.image2 {
+    border-radius: 8px;
+    height: 300px;
+    padding: 20px;
+    max-width: 300px;
+    border: 2px solid red;
+}
+.image3 {
+    border-radius: 8px;
+    height: 300px;
+    padding: 20px;
+    max-width: 300px;
+    opacity: 0.5;
+
+}
+
+.image4 { 
+    border-radius: 8px;
+    height: 300px;
+    padding: 20px;
+    max-width: 300px;
+}
+
+.float--50 {
+    float:right;
+    width: 50% ;
+}
+   
