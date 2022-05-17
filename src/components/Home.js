@@ -7,6 +7,7 @@ import Brooks from "../pictures/Brooks.jpg";
 import kimmons from "../pictures/kimmons.jpg";
 import school from "../pictures/school.jpg";
 import basketball from "../pictures/basketball.jpg";
+import fam from "../pictures/fam.jpg";
 
 export default function Home() {
   return (
@@ -38,13 +39,15 @@ export default function Home() {
           src={kimmons}
           alt="kimmons logo"
         />
+
         <img
           className="picture--item6 gallery__img"
           src={school}
           alt="school"
         />
+        <img className="picture--item7 gallery__img" src={fam} alt="family" />
         <img
-          className="picture--item7 gallery__img"
+          className="picture--item8 gallery__img"
           src={basketball}
           alt="basketball"
         />
