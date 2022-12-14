@@ -1,15 +1,18 @@
 .my--form {
     max-width: 400px;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(9, 9, 9);
     margin: 0 auto;
-    box-shadow: 2px 2px 5px #ddd;
+    box-shadow: 2px 2px 5px #070707;
   }
   
   .my--form label {
     display: block;
     margin-bottom: 10px;
-    color:rgb(237, 245, 9);
+    color:rgb(240, 6, 68);
+    font-size:larger;
+    font-weight: bold;
+    text-decoration: underline 3px;
   }
   
   .my--form input[type="text"],
@@ -20,6 +23,7 @@
     box-sizing: border-box;
     border: 2px solid rgb(5, 1, 1);
     border-radius: 4px;
+    
   }
   
   .my--form input[type="submit"] {
@@ -35,6 +39,9 @@
     background-image: url('https://cdn.pixabay.com/photo/2013/07/18/20/26/sea-164989__340.jpg');
     background-size: cover;
     background-position: center;
+}
+#Form-page{
+    color:gold;
 }
 
   

@@ -6,17 +6,25 @@ import golf from "../pictures/golf.JPG";
 import dog from "../pictures/dog.jpg";
 
 export default function About() {
+  const Title = [];
   return (
     <div>
       <div className="float--50">
         <h1 className="About">About me </h1>
         <ul className="about--list">
-          <li>Graduated from Uafs with a bachelors in Mathematics</li>
-          <li>Teacher at kimmons Middle school</li>
-          <li>I like playing golf </li>
-          <li>Has a son that is a litle over 2 months old</li>
-          <li>I have two dogs that I enjoy spending time with</li>
-          <li>Enjoys learning how to develop a website</li>
+          <p>
+            Welcome to my personal website! My name is Brett Dunn and I am a
+            teacher. On this website, you will find information about my
+            professional life, including my syllabus and a form for students to
+            fill out. In addition to my professional life, you will also find
+            information about my personal life. I have a gaming computer and I
+            enjoy playing games in my free time. I also have a son with another
+            one on the way and a loving wife. Thank you for visiting my website.
+            I hope you find the information you are looking for and please feel
+            free to contact me if you have any questions.
+          </p>
+          Sincerely, Brett Dunn
+          <p></p>
         </ul>
       </div>
       <div className="float--50">

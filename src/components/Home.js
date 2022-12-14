@@ -55,31 +55,31 @@ export default function Home() {
       </div>
     </div>
   );
-  function useLoginButton() {
-    const [isLoggedIn, setIsLoggedIn] = useState(false);
+  // function useLoginButton() {
+  //   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
-    function handleLoginClick() {
-      setIsLoggedIn(true);
-    }
+  //   function handleLoginClick() {
+  //     setIsLoggedIn(true);
+  //   }
 
-    function handleLogoutClick() {
-      setIsLoggedIn(false);
-    }
+  //   function handleLogoutClick() {
+  //     setIsLoggedIn(false);
+  //   }
 
-    return {
-      isLoggedIn,
-      onLoginClick: handleLoginClick,
-      onLogoutClick: handleLogoutClick,
-    };
-  }
+  //   return {
+  //     isLoggedIn,
+  //     onLoginClick: handleLoginClick,
+  //     onLogoutClick: handleLogoutClick,
+  //   };
+  // }
 
-  function LoginButton() {
-    const { isLoggedIn, onLoginClick, onLogoutClick } = useLoginButton();
+  // function LoginButton() {
+  //   const { isLoggedIn, onLoginClick, onLogoutClick } = useLoginButton();
 
-    if (isLoggedIn) {
-      return <button onClick={onLogoutClick}>Logout</button>;
-    } else {
-      return <button onClick={onLoginClick}>Login</button>;
-    }
-  }
+  //   if (isLoggedIn) {
+  //     return <button onClick={onLogoutClick}>Logout</button>;
+  //   } else {
+  //     return <button onClick={onLoginClick}>Login</button>;
+  //   }
+  // }
 }

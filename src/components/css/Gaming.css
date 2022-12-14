@@ -13,5 +13,14 @@
     height: 40px;
     margin-right: 40px;
     padding: 10px;
+    color: rgb(4, 86, 51);
+
 }
 body{    overflow-y:scroll; }
+p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#Gaming-page{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: crimson;
+}
