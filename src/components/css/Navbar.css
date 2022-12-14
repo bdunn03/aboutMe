@@ -17,3 +17,9 @@ nav{
     float:left;
     height: 50px;
 }
+.form-page {
+    background-image: url('https://www.istockphoto.com/vector/math-equations-written-on-a-blackboard-gm1219382595-356664698');
+    background-size: cover;
+    background-position: center;
+ }
+ 

@@ -20,10 +20,10 @@ export default function About() {
         </ul>
       </div>
       <div className="float--50">
-        <img className="image2" src={Brooks} alt="an image of Brooks" />
+        <img className="image2" src={Brooks} alt="Brooks" />
         <img className="image3" src={golf} alt="golfing" />
-        <img className="image4" src={dog} alt="an image of Brooks" />
-        <img className="image" src={image} alt="an image" />
+        <img className="image4" src={dog} alt=" Brooks" />
+        <img className="image" src={image} alt="yeah" />
       </div>
     </div>
   );
