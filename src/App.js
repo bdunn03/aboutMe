@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import About from "./components/About";
 import Navbar from "./components/Navbar";
@@ -9,7 +8,6 @@ import Home from "./components/Home";
 import Writing from "./components/Writing";
 import Form from "./components/Form";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
 function App() {
   return (
     <div className="App">

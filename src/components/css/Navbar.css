@@ -2,24 +2,53 @@ nav{
     color: #ffffff;
     background-color:#968c8c;
     height:50px;
-    
-}
-.nav--text{
-    float:left;
-    padding-top:10px
-}
-.nav--right {
-    float:right;
-    padding-left: 8%;
-    padding-top:10px
 }
 .navbar--logo {
     float:left;
     height: 50px;
 }
-.form-page {
-    background-image: url('https://www.istockphoto.com/vector/math-equations-written-on-a-blackboard-gm1219382595-356664698');
-    background-size: cover;
-    background-position: center;
- }
+ .custom-dropdown {
+    /* add a background color and some padding to the dropdown menu */
+    background-color: #f5f5f5;
+    padding: 10px;
+  
+    /* add a border and some rounded corners to the dropdown menu */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  
+    /* give the Dropdown component a fixed position */
+    position: fixed;
+    top: 0;
+    right: 0;
+  }
+  
+  /* add some styles for the dropdown menu items */
+  .custom-dropdown .dropdown-item {
+    color: rgb(81, 123, 121); /* change the text color */
+    font-size: 14px; /* change the font size */
+    padding: 6px 10px;
+    background-color:white;
+  }
+  
+  /* style the Dropdown.Toggle component */
+  .custom-dropdown .dropdown-toggle {
+    display: inline-block;
+    width: 120px;
+    height:28px;
+  }
+  
+  /* style the Dropdown.Menu component */
+  .custom-dropdown .dropdown-menu {
+    position: absolute;
+    top: 41px;
+    left: 0;
+    padding-top: 10px;
+    margin-left: 30px;
+  
+    /* make the dropdown menu items stack on top of each other */
+    display: flex;
+    flex-direction: column;
+  }
  
+ 
+  

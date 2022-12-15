@@ -13,6 +13,7 @@
     font-size:larger;
     font-weight: bold;
     text-decoration: underline 3px;
+    
   }
   
   .my--form input[type="text"],
@@ -23,6 +24,7 @@
     box-sizing: border-box;
     border: 2px solid rgb(5, 1, 1);
     border-radius: 4px;
+
     
   }
   
@@ -42,6 +44,14 @@
 }
 #Form-page{
     color:gold;
+}
+.my--form input[type="text"]{
+  font-family:fantasy;
+}
+.form-page {
+  background-image: url('https://www.istockphoto.com/vector/math-equations-written-on-a-blackboard-gm1219382595-356664698');
+  background-size: cover;
+  background-position: center;
 }
 
   

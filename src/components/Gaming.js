@@ -10,7 +10,7 @@ export default function Gaming() {
         <img
           className="Gaming--pictures"
           src={rocketLeagueImage}
-          alt="rocket league Image"
+          alt="rocket league"
         />
         <img
           className="Gaming--pictures"

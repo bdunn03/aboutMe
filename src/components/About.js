@@ -6,7 +6,6 @@ import golf from "../pictures/golf.JPG";
 import dog from "../pictures/dog.jpg";
 
 export default function About() {
-  const Title = [];
   return (
     <div>
       <div className="float--50">
