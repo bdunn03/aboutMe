@@ -48,6 +48,7 @@ export default function Navbar() {
             <Dropdown.Item href="/Syllabus">Syllabus</Dropdown.Item>
             <Dropdown.Item href="/Writing">Writing</Dropdown.Item>
             <Dropdown.Item href="/Form">Form</Dropdown.Item>
+            <Dropdown.Item href="/Tick">Tick Tac Toe</Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown>
       </div>

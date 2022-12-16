@@ -8,6 +8,11 @@ import kimmons from "../pictures/kimmons.jpg";
 import school from "../pictures/school.jpg";
 import basketball from "../pictures/basketball.jpg";
 import fam from "../pictures/fam.jpg";
+import image1 from "../pictures/image1.jpeg";
+import image2 from "../pictures/image2.jpeg";
+import image3 from "../pictures/image3.jpeg";
+import image4 from "../pictures/image4.jpeg";
+import image5 from "../pictures/image5.jpeg";
 
 const images = [
   rocketLeague,
@@ -18,6 +23,11 @@ const images = [
   school,
   fam,
   basketball,
+  image1,
+  image2,
+  image3,
+  image4,
+  image5,
 ];
 
 export default function Home() {

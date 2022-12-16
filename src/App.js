@@ -7,6 +7,7 @@ import Syllabus from "./components/Syllabus";
 import Home from "./components/Home";
 import Writing from "./components/Writing";
 import Form from "./components/Form";
+import Tick from "./components/Tick";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/Home" element={<Home />}></Route>
           <Route path="/Writing" element={<Writing />}></Route>
           <Route path="/Form" element={<Form />}></Route>
+          <Route path="/Tick" element={<Tick />}></Route>
         </Routes>
       </BrowserRouter>
     </div>
