@@ -2,7 +2,7 @@
   "name": "about-me",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://bdunn03.github.io",
+  "homepage": "https://bdunn03.github.io/aboutMe",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
